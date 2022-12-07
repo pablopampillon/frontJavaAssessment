@@ -1,0 +1,122 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wght@200;400&family=Comfortaa&display=swap");
+
+.card {
+  overflow: none;
+  width: 90%;
+  /* max-width: 180px; */
+  /* width: (100% - 10px); */
+  border: 1px solid transparentize(white, 0.5);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 10px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
+  /* min-width: 124px; */
+  padding: 10px;
+  /* max-height: 124px; */
+  height: 220px;
+  background: transparentize(white, 0.8);
+  backdrop-filter: blur(20px);
+  user-select: none;
+}
+
+.card:hover {
+  box-shadow: rgba(77, 17, 117, 1) 0px 0px 8px;
+}
+
+
+.buttP {
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 5px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
+  /* background: transparentize(white, 0.8); */
+  backdrop-filter: blur(20px);
+  font-size: 15px;
+
+  /* margin-top: 30px; */
+}
+/* .title-points {
+  margin-top: 25px;
+} */
+
+.title-points {
+  height: 70%;
+}
+
+.buttP {
+  cursor: pointer;
+}
+
+/*
+.buttP{
+    visibility: hidden;
+    transition: 2.5s;
+}
+.card:hover .buttP{
+    visibility: visible;
+    transition: 2.5s;
+} */
+.card:hover .button {
+  visibility: visible;
+  display: inline-block;
+  /* padding: 10px 20px; */
+  border-radius: 0px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  opacity: 100;
+  transform: translateY(0px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+/* .card:hover .title-points {
+  margin-top: 0px;
+  transition: 0.5s;
+} */
+
+/* .card:hover .points {
+  margin-top: -10px;
+  transition: 0.5s;
+} */
+
+.card:hover .buttP {
+  margin-top: 15px;
+  transition: 0.5s;
+  box-shadow: rgba(77, 17, 117, 1) 0px 0px 8px;
+}
+
+.card-title {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "syncopate";
+  text-shadow: 0 0 1em transparentize(black, 0.5);
+}
+.points {
+  /* margin-bottom: 50px !important; */
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  font-family: "syncopate";
+}
+
+.blur-backgroud {
+  position: absolute;
+  backdrop-filter: blur(10px);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 9999;
+}
